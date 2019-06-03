@@ -13,7 +13,7 @@ if __name__ == '__main__':
 
     action = sys.argv[1]
 
-    pidfile = os.path.join(os.getcwd(), "tamperd.pid")
+    pidfile = "/var/run/tamperd.pid"
     daemon = TamperDaemon.Daemon(pidfile=pidfile)
 
     if action == "start":

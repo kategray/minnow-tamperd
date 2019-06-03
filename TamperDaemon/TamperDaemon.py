@@ -5,7 +5,7 @@ import logging
 
 from daemons.prefab import run,step
 
-logfile = path.join (path.dirname (path.dirname (path.abspath (__file__))), "tamperd.log")
+logfile = "/var/log/tamperd.log"
 logging.basicConfig(filename=logfile, level=logging.DEBUG)
 LOG = logging.getLogger(__name__)
 

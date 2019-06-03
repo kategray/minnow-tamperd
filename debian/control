@@ -1,0 +1,15 @@
+Source: minnow-tamperd
+Section: unknown
+Priority: optional
+Maintainer: Kate Gray <opensource@codenykate.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/kategray/minnow-tamperd
+Vcs-Git: https://github.com/kategray/minnow-tamperd.git
+Vcs-Browser: https://github.com/kategray/minnow-tamperd
+
+Package: minnow-tamperd
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3
+Description: Tamper Detection daemon for Minnowboard
+ This repository contains a small daemon (for python 3) that monitors a GPIO pin on the minnowboard and responds if the value changes. It is intended for use with a case-mounted switch.

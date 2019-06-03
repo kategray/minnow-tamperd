@@ -1,0 +1,11 @@
+minnow-tamperd (20190603) bionic; urgency=medium
+
+  * Add debian packaging
+
+ -- Kate Gray <opensource@codenykate.com>  Mon, 03 Jun 2019 16:40:48 -0400
+
+minnow-tamperd (20190602) bionic; urgency=medium
+
+  * Initial Release
+
+ -- Kate Gray <opensource@codenykate.com>  Sun, 02 Jun 2019 23:37:31 -0400

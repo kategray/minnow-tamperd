@@ -1,0 +1,3 @@
+debian/tamperd.service /lib/systemd/system/
+tamperd /usr/sbin/
+TamperDaemon/TamperDaemon.py /usr/sbin/TamperDaemon/

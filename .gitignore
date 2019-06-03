@@ -1,3 +1,7 @@
 tamperd.log
 tamperd.pid
 __pycache__
+build/*
+debian/minnow-tamperd
+*.debhelper
+*.log
